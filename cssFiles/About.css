@@ -1,33 +1,49 @@
-#description-part1{
+#description-parts{
+    list-style-type: none;
+}
+
+#descriptor{
+    border-style: solid;
+    border-color: lightgray;
+    width: 500px;
+    length: 100px;
     direction: rtl;
     float: right;
-    width: 100px;
+
+
 }
 
-#pargaraph1{
+#About{
+    margin-right: 5%;
+    margin-left: 5%;
     direction: rtl;
-    font-size: 80%;
-
+    display: inline-block;
+    list-style-type: none;
+    width: 90%;
 }
 
-#description{
-    direction: rtl;
-    margin-right: 10%;
-    width: 300px;
+#description-part1{
+    float: right;
+    width: 110px;
 }
-
 #description-part2{
-    width: 170px;
     float: left;
-}
-
-#paragraph2{
+    width: 340px;
     direction: rtl;
-    font-size: 80%;
-}
+    /*position: relative;*/
+    /*top: 0px;*/
+    /*bottom: 10px;*/
+    /*top:290px;*/
+    /*right: 270px;*/
 
+}
 #logo_image{
     float: right;
 }
 
 
+.paragraph{
+    font-size: 80%;
+    color: gray;
+    direction: rtl;
+}

@@ -153,8 +153,8 @@
 }
 
 #menu_bar{
-    right: 10%;
-    left: 10%;
+    right: auto;
+    left: auto;
     direction: rtl;
 }
 
