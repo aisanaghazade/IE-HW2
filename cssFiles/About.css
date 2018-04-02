@@ -1,0 +1,33 @@
+#description-part1{
+    direction: rtl;
+    float: right;
+    width: 100px;
+}
+
+#pargaraph1{
+    direction: rtl;
+    font-size: 80%;
+
+}
+
+#description{
+    direction: rtl;
+    margin-right: 10%;
+    width: 300px;
+}
+
+#description-part2{
+    width: 170px;
+    float: left;
+}
+
+#paragraph2{
+    direction: rtl;
+    font-size: 80%;
+}
+
+#logo_image{
+    float: right;
+}
+
+
