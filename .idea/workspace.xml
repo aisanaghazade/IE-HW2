@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25cc57b0-23e5-4656-adf4-3b3bd3f43bc0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cssFiles/justincase.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cssFiles/justincase.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icons/brands.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cssFiles/About.css" afterPath="$PROJECT_DIR$/cssFiles/About.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cssFiles/general.css" afterPath="$PROJECT_DIR$/cssFiles/general.css" />
@@ -22,11 +23,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="About.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="About.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/About.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="22" column="62" lean-forward="false" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+            <state relative-caret-position="591">
+              <caret line="117" column="38" lean-forward="false" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -35,48 +36,18 @@
       <file leaf-file-name="About.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cssFiles/About.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="73" column="19" lean-forward="false" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+            <state relative-caret-position="186">
+              <caret line="128" column="19" lean-forward="false" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="return.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/return.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1095">
-              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="general.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="general.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cssFiles/general.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="153" column="21" lean-forward="false" selection-start-line="153" selection-start-column="21" selection-end-line="153" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="justincase.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cssFiles/justincase.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="173" column="0" lean-forward="true" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+            <state relative-caret-position="-909">
+              <caret line="84" column="4" lean-forward="false" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -109,10 +80,10 @@
         <option value="$PROJECT_DIR$/cssFiles/return.css" />
         <option value="$PROJECT_DIR$/src/contact.html" />
         <option value="$PROJECT_DIR$/src/return.html" />
-        <option value="$PROJECT_DIR$/cssFiles/About.css" />
-        <option value="$PROJECT_DIR$/src/About.html" />
         <option value="$PROJECT_DIR$/justincase.css" />
         <option value="$PROJECT_DIR$/cssFiles/general.css" />
+        <option value="$PROJECT_DIR$/src/About.html" />
+        <option value="$PROJECT_DIR$/cssFiles/About.css" />
       </list>
     </option>
   </component>
@@ -123,10 +94,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-139" />
-    <option name="y" value="25" />
-    <option name="width" value="1165" />
-    <option name="height" value="739" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="742" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -689,15 +659,15 @@
       <workItem from="1522515451842" duration="9226000" />
       <workItem from="1522594657266" duration="18982000" />
       <workItem from="1522749745779" duration="224000" />
-      <workItem from="1522847328144" duration="6138000" />
+      <workItem from="1522847328144" duration="11151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34570000" />
+    <option name="totallyTimeSpent" value="39583000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-139" y="25" width="1165" height="739" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -714,7 +684,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24978541" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22734375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -843,9 +813,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cssFiles/justincase.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="173" column="0" lean-forward="true" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/return.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
+        <state relative-caret-position="591">
           <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding />
         </state>
@@ -859,34 +837,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cssFiles/justincase.css">
+    <entry file="file://$PROJECT_DIR$/cssFiles/general.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="173" column="0" lean-forward="true" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+        <state relative-caret-position="-909">
+          <caret line="84" column="4" lean-forward="false" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cssFiles/About.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="73" column="19" lean-forward="false" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+        <state relative-caret-position="186">
+          <caret line="128" column="19" lean-forward="false" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/About.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="22" column="62" lean-forward="false" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cssFiles/general.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="153" column="21" lean-forward="false" selection-start-line="153" selection-start-column="21" selection-end-line="153" selection-end-column="21" />
+        <state relative-caret-position="591">
+          <caret line="117" column="38" lean-forward="false" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
           <folding />
         </state>
       </provider>

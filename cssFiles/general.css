@@ -130,7 +130,7 @@
     margin-right: 10%;
 }
 .menu1_link:hover{
-    color: darkseagreen;
+    color: #C8D6E8;
 }
 
 .menu2_link{
@@ -156,7 +156,7 @@
 }
 
 .menu2_link:hover{
-    color: darkseagreen;
+    color: #C8D6E8;
 
 
 }
@@ -175,4 +175,6 @@
 }
 
 
-
+#main{
+    width: 100%;
+}

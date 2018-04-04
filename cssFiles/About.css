@@ -5,9 +5,8 @@
 #descriptor{
     border-style: solid;
     border-color: lightgray;
-    width: 600px;
-    margin-right: 5%;
-    height: 200px;
+    width: 60%;
+    margin-right: 7%;
     direction: rtl;
     float: right;
 
@@ -25,11 +24,11 @@
 
 #description-part1{
     float: right;
-    width: 110px;
+    width: 18%;
 }
 #description-part2{
     float: left;
-    width: 440px;
+    width: 80%;
     direction: rtl;
     /*position: relative;*/
     /*top: 0px;*/
@@ -40,6 +39,7 @@
 }
 #logo_image{
     float: right;
+    width: 18%;
 }
 
 
@@ -49,10 +49,14 @@
     direction: rtl;
 }
 
+#logo{
+    width: 100%;
+}
+
 #feedbacks{
-    width: 200px;
+    width: 25%;
     height: 200px;
-    margin-right: 5%;
+    margin-right: 0%;
     margin-left: 5%;
     border-style: solid;
     border-color: #C8D6E8;
@@ -67,10 +71,101 @@
     color: darkgray;
     font-size: 80%;
     box-shadow: none;
-    margin-top: 40%;
+    margin-top: 30%;
     margin-right: 15%;
-    height: 20px;
+    height: 20%;
+    width: 70%;
     text-align: center;
     direction: rtl;
 
+}
+#feedback:focus{
+    outline: none;
+}
+#brands{
+    background-image: url("../icons/brands.png");
+    width: 60%;
+    height: 200px;
+    float: right;
+    margin-right: 7%;
+    margin-top: 1%;
+    opacity: 0.5;
+}
+
+#try{
+    margin-left: 20%;
+    margin-top: 15%;
+
+    float: left;
+    width: 60%;
+    height: 20%;
+    background-color: #C8D6E8;
+    cursor: pointer;
+    font-size: 90%;
+    border:solid 0px;
+    color: gray;
+    border-radius: 70%;
+}
+
+#news{
+    width: 25%;
+    height: 200px;
+    margin-right: 0%;
+    margin-left: 5%;
+    border-style: solid;
+    border-color: #C8D6E8;
+    background-color: #C8D6E8;
+    float: left;
+    margin-top: 1%;
+}
+
+#email{
+    border-color: #C8D6E8;
+    background-color: white;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 30%;
+    margin-top: 5%;
+}
+
+#email-address{
+    border-style: none;
+    margin-left: 2%;
+    margin-right: 8%;
+    width: 70%;
+}
+
+#email-address:focus{
+    outline: none;
+}
+
+#emailicon{
+    opacity: 0.5;
+}
+
+#mail{
+    margin-right: 43%;
+    margin-left: 43%;
+    margin-top: 2%;
+    color: gray;
+}
+
+.p1{
+    font-size: 90%;
+    color: gray;
+    margin-right: 35%;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+
+#signup{
+    background-color: slategray;
+    color: lightgray;
+    border-style: none;
+    border-radius: 40%;
+    width: 40%;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 5%;
 }
