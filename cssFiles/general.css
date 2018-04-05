@@ -225,3 +225,24 @@
     direction: rtl;
     float: right;
 }
+
+
+.iconcell{
+    opacity: 0.5;
+}
+
+#icons{
+    margin-top: 1.5%;
+    margin-right: 3%;
+    float: right;
+    color: darkslategrey;
+}
+
+#copyright{
+    width: 35%;
+    margin-right: 3%;
+    margin-top: 3%;
+    font-size: 90%;
+    color: darkslategrey;
+    float: right;
+}
