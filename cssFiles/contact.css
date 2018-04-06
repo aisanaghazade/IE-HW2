@@ -1,0 +1,141 @@
+.text{
+    margin-right: 1%;
+    font-size: 90%;
+    color: gray;
+    direction: rtl;
+}
+
+.title{
+    font-size: 100%;
+    color: gray;
+}
+
+#contact_us{
+    direction: rtl;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 1.5%;
+}
+
+#address{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+#contact_ways{
+    direction: rtl;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+#email_address{
+    direction: rtl;
+    width: 40%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#emailicon{
+    margin-top: 3%;
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin-left: 2%;
+    border-style: solid;
+    border-color: lightgray;
+    opacity: 0.5;
+    border-radius: 100%;
+
+
+}
+
+#eadress{
+    float: right;
+    margin-top: 0%;
+}
+
+#ei{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+#email_address{
+    direction: rtl;
+    width: 25%;
+
+}
+
+#callingicon{
+    margin-top: 3%;
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin-left: 2%;
+    border-style: solid;
+    border-color: lightgray;
+    opacity: 0.5;
+    border-radius: 100%;
+
+
+}
+
+
+
+#ci{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+#follow{
+    width: 50%;
+    font-size: 110%;
+}
+
+#callinginfo{
+    width: 30%;
+}
+
+#contact_ways{
+    border-bottom-color: gray;
+    border-bottom-style: solid;
+    border-top-color: gray;
+    border-top-style: solid;
+    margin-bottom: 2%;
+}
+
+#contact-table{
+    border-collapse: collapse;
+}
+
+#follow{
+    border-right-style: solid;
+    border-right-color: lightgrey;
+    width: 45%;
+
+}
+
+#info{
+    width: 50%;
+}
+
+#main-office{
+    float: right;
+}
+
+#address{
+    direction: rtl;
+}
+
+#map{
+
+}
