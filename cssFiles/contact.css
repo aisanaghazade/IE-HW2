@@ -137,5 +137,31 @@
 }
 
 #map{
+    width: 100%;
+    height: 100%;
+    margin-left:15% ;
+}
 
+#address{
+    width: 70%;
+    height: 120%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+#note{
+    background-color: #79A9A3;
+    color: white;
+    font-size: 100%;
+    direction: rtl;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+#notetext{
+    font-size: 120%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
 }
