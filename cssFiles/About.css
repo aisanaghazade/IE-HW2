@@ -59,7 +59,7 @@
     margin-right: 0%;
     margin-left: 5%;
     border-style: solid;
-    border-color: #C8D6E8;
+    border-color: blue;
     background-color: white;
     background-image: url("../icons/opinion.png");;
     float: left;
@@ -99,7 +99,7 @@
     float: left;
     width: 60%;
     height: 20%;
-    background-color: #C8D6E8;
+    background-color: blue;
     cursor: pointer;
     font-size: 90%;
     border:solid 0px;
@@ -113,14 +113,14 @@
     margin-right: 0%;
     margin-left: 5%;
     border-style: solid;
-    border-color: #C8D6E8;
-    background-color: #C8D6E8;
+    border-color: blue;
+    background-color: blue;
     float: left;
     margin-top: 1%;
 }
 
 #email{
-    border-color: #C8D6E8;
+    border-color: blue;
     background-color: white;
     width: 80%;
     margin-right: 10%;
