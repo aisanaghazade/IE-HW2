@@ -48,7 +48,7 @@
     border-style: solid;
     border-color: lightgray;
     opacity: 0.5;
-    border-radius: 100%;
+    border-radius: 20px;
 
 
 }
@@ -81,7 +81,7 @@
     border-style: solid;
     border-color: lightgray;
     opacity: 0.5;
-    border-radius: 100%;
+    border-radius: 50px;
 
 
 }
@@ -164,4 +164,67 @@
     margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 2%;
+}
+
+#contact_us_form{
+    direction: rtl;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+#formtable{
+    direction: rtl;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.forminput{
+    border-radius: 10px;
+    direction: ltr;
+    border-style: solid;
+    box-shadow: none;
+    border-color: lightgray;
+    background-color: aliceblue;
+    width: 90%;
+    height: 40%;
+}
+
+.forminput:focus{
+    outline-style: none;
+}
+
+#msg{
+    width: 280%;
+    height: 120px;
+    border-color: lightgray;
+    background-color: aliceblue;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+#msg:focus{
+    outline-style: none;
+}
+
+#form{
+    box-shadow: lightgray;
+    border-style: solid;
+    border-color: lightgray;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+#sendbutton{
+    color: gray;
+    background-color: aliceblue;
+    border-color: gray;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: lightgrey;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
 }

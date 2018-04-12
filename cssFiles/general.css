@@ -22,7 +22,7 @@
     length: 8%;
     float: left;
     margin-top: 1%;
-    border-radius: 15%;
+    border-radius: 15px;
     border: solid 1px;
     border-color: lightgray;
 }
@@ -82,7 +82,7 @@
     color: darkgrey;
     border-color: lightgray;
     border-style: solid;
-    border-radius: 40%;
+    border-radius: 20px;
     text-decoration: none;
     text-align: center;
     font-style: italic;
