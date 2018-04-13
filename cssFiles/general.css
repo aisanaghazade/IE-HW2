@@ -169,7 +169,7 @@
     display: block;
     position: relative;
     margin-right: 28%;
-    opacity: 0.5;
+    /*opacity: 0.5;*/
 }
 
 .menu2_link:hover{
@@ -263,3 +263,14 @@
     float: right;
 }
 
+.text{
+    margin-right: 1%;
+    font-size: 90%;
+    color: gray;
+    direction: rtl;
+}
+
+.title{
+    font-size: 100%;
+    color: gray;
+}

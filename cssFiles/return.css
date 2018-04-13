@@ -1,0 +1,88 @@
+#condition{
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    direction: rtl;
+}
+
+#description{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#picture{
+    width: 60%;
+    height: 30%;
+}
+
+#pic{
+    width: 50%;
+    float: left;
+}
+
+#T11{
+    width: 100%;
+    transform: rotate(270deg);
+    height: 100%;
+}
+#T1{
+    position: absolute;
+    left: 8%;
+    top: 74%;
+    font-size: 150%;
+}
+
+#T2{
+    position: absolute;
+    left: 29%;
+    top: 80%;
+    font-size: 150%;
+}
+
+#T22{
+    width: 100%;
+    transform: rotate(90deg);
+}
+
+#x{
+    list-style-type: none;
+    display: block;
+}
+
+#des{
+    width: 60%;
+    direction: rtl;
+}
+
+#select{
+    border-style: solid;
+    border-radius: 60px;
+    outline-style: none;
+    background-color: aliceblue;
+    border-color: lightgrey;
+
+}
+
+#ordernumber{
+    border-color: lightgrey;
+    background-color: aliceblue;
+    border-radius: 40px;
+    border-style: solid;
+    width: 100%;
+}
+
+#form{
+    color: blue;
+    border-style: solid;
+    border-color: lightgrey;
+}
+
+#send{
+    margin-top: 2%;
+    border-style: solid;
+    border-color: lightgrey;
+    background-color: aliceblue;
+    border-radius: 40px;
+    margin-right: 80%;
+}
