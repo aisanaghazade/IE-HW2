@@ -4,7 +4,7 @@
 
 #descriptor{
     border-style: solid;
-    border-color: lightgray;
+    border-color: #E0E0E0;
     width: 60%;
     margin-right: 7%;
     direction: rtl;
@@ -98,7 +98,7 @@
     float: left;
     width: 60%;
     height: 20%;
-    background-color: blue;
+    background-color: #6666FF;
     cursor: pointer;
     font-size: 90%;
     border:solid 0px;
@@ -112,14 +112,14 @@
     margin-right: 0%;
     margin-left: 5%;
     border-style: solid;
-    border-color: blue;
-    background-color: blue;
+    border-color: #6666FF;
+    background-color: #6666FF;
     float: left;
     margin-top: 1%;
 }
 
 #email{
-    border-color: blue;
+    border-color: #6666FF;
     background-color: white;
     width: 80%;
     margin-right: 10%;
@@ -160,7 +160,7 @@
 
 #signup{
     background-color: slategray;
-    color: lightgray;
+    color: #E0E0E0;
     border-style: none;
     border-radius: 20px;
     width: 40%;

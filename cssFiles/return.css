@@ -60,12 +60,12 @@
     border-radius: 60px;
     outline-style: none;
     background-color: aliceblue;
-    border-color: lightgrey;
+    border-color: #E0E0E0;
 
 }
 
 #ordernumber{
-    border-color: lightgrey;
+    border-color: #E0E0E0;
     background-color: aliceblue;
     border-radius: 40px;
     border-style: solid;
@@ -73,15 +73,15 @@
 }
 
 #form{
-    color: blue;
+    color: #6666FF;
     border-style: solid;
-    border-color: lightgrey;
+    border-color: #E0E0E0;
 }
 
 #send{
     margin-top: 2%;
     border-style: solid;
-    border-color: lightgrey;
+    border-color: #E0E0E0;
     background-color: aliceblue;
     border-radius: 40px;
     margin-right: 80%;

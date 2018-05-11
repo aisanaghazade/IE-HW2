@@ -9,32 +9,7 @@
     font-size:13px;
 }
 
-#support{
-    position: fixed;
-    right:2px;
-    bottom: 0px;
-    direction: rtl;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-style: solid;
-    border-color: blue;
-    background-color: blue;
-    width: 10%;
-}
 
-#s-button{
-    position: fixed;
-    right:30px;
-    bottom: 0px;
-    border-style: solid;
-    border-color: blue;
-    background-color: blue;
-}
-
-#s-img{
-    width: 4%;
-    height: 4%;
-}
 
 #header{
     width: 100%;
@@ -51,7 +26,7 @@
     margin-top: 1%;
     border-radius: 15px;
     border: solid 1px;
-    border-color: lightgray;
+    border-color: #E0E0E0;
 }
 
 #search_button{
@@ -77,7 +52,7 @@
     float: right;
     box-shadow: none;
     border: none;
-    border-color: lightgray;
+    border-color: #E0E0E0;
     left: 0%;
     top: 0%
 
@@ -96,7 +71,7 @@
     left: 45%;
     top: 2%;
     font-size: 300%;
-    color: lightgray;
+    color: #E0E0E0;
 }
 
 #login{
@@ -107,7 +82,7 @@
 .signin-up{
     display: inline-block;
     color: darkgrey;
-    border-color: lightgray;
+    border-color: #E0E0E0;
     border-style: solid;
     border-radius: 20px;
     text-decoration: none;
@@ -119,7 +94,7 @@
 
 .signin-up:hover{
     color: white;
-    background-color: lightgray;
+    background-color: #E0E0E0;
 }
 
 #menu{
@@ -135,7 +110,7 @@
 .item{
     display: inline-block;
     color: darkgrey;
-    border-color: lightgray;
+    border-color: #E0E0E0;
     text-decoration: none;
     border-style: none;
     text-align: center;
@@ -148,7 +123,7 @@
     display: inline;
     color: darkgrey;
     font-size: 110%;
-    border-color: lightgray;
+    border-color: #E0E0E0;
     text-decoration: none;
     border-style: none;
     text-align: center;
@@ -164,7 +139,7 @@
     display: inline-block;
     color: darkgrey;
     font-size: 110%;
-    border-color: lightgray;
+    border-color: #E0E0E0;
     text-decoration: none;
     border-style: solid;
     text-align: center;
@@ -178,9 +153,9 @@
 
 #menu2_linkpage{
     display: inline-block;
-    color: blue;
+    color: #6666FF;
     font-size: 110%;
-    border-color: blue;
+    border-color: #6666FF;
     text-decoration: none;
     border-style: solid;
     text-align: center;
@@ -224,7 +199,7 @@
 }
 
 #footer{
-    background-color: lightgray;
+    background-color: #E0E0E0;
     height: 190px;
     margin-bottom: 0%;
     margin-left: 0%;
@@ -302,3 +277,129 @@
     color: gray;
 }
 
+#support{
+    position: fixed;
+    right:2px;
+    bottom: 0px;
+    direction: rtl;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-style: solid;
+    border-color: #6666FF;
+    background-color: #6666FF;
+    width: 10%;
+}
+
+#s-button{
+    position: fixed;
+    right:30px;
+    bottom: 0px;
+    border-style: solid;
+    border-color: #6666FF;
+    background-color: #6666FF;
+}
+
+#s-img{
+    width: 4%;
+    height: 4%;
+}
+
+#chat_box{
+    background-color: #6666FF;
+    position: fixed;
+    bottom: 0px;
+    right: 3px;
+    width: 20%;
+    height: 57%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#msg_box{
+    position: fixed;
+    bottom: 5%;
+    height: 40%;
+    width: 20%;
+    right: 3px;
+    background-color: #E0E0E0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#msg_txt{
+    position: fixed;
+    border-style: solid;
+    border-color: gray;
+    background-color: #E0E0E0;
+    bottom: 0%;
+    height: 4.5%;
+    width: 19.5%;
+    right: 3px;
+}
+
+#supporter_img{
+    position: fixed;
+    right: -560px;
+    bottom: 45%;
+    border-radius: 100%;
+}
+
+#s_img{
+    width: 10%;
+    height: 10%;
+    border-radius: 100%;
+}
+
+#name{
+    position: fixed;
+    right: 6.5%;
+    bottom: 48%;
+    direction: rtl;
+}
+
+#minimize_image{
+    width: 20px;
+    height: 20px;
+}
+
+#min{
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: #6666FF;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border-style: none;
+}
+
+#msg1{
+    position: fixed;
+    bottom: 6px;
+    right: 10px;
+    background-color: white;
+    border-style: none;
+    height: 3.5%;
+    width: 18.75%;
+    border-radius: 5px;
+}
+
+#send_button{
+    border-style: none;
+    background-color: white;
+}
+
+#send_image{
+    width: 40%;
+    height: 40%;
+}
+
+#m_text{
+    height: 80%;
+    width: 70%;
+    border-style: none;
+    direction: rtl;
+}
+
+#m_text:focus{
+    outline: none;
+}
