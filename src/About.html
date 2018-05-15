@@ -5,29 +5,31 @@
     <title>Clothster</title>
     <link rel="stylesheet" href="../cssFiles/about.css" type="text/css">
     <link rel="stylesheet" href="../cssFiles/general.css" type="text/css">
+
+    <script src="../JS_Files/general.js"></script>
 </head>
 <body>
 <div id = "support">
-    <input type="submit" value="پشتیبانی آنلاین" id="s-button">
-    <button type="submit" id="su-button"><img src="../icons/about_black.png" id="s-img"></button>
+    <input type="submit" value="پشتیبانی آنلاین" id="s-button" onclick=chatbox()>
+    <button type="submit" id="su-button" onclick=chatbox()><img src="../icons/about_black.png" id="s-img" onclick="chatbox()"></button>
     </input>
 </div>
-<div id = "chat_box">
+<div id = "chat_box" style="display: none">
     <div id = "supporter_information">
         <span>
-            <button id="min" type="submit"><img id="minimize_image" src="../icons/minimize.png"></button>
+            <button id="min" type="submit" onclick="minimize()"><img id="minimize_image" src="../icons/minimize.png" onclick="minimize()"></button>
         </span>
-        <span id="supporter_img">
-            <img id="s_img" src="../icons/aisan.JPG">
+        <span id="supporterimg">
+
         </span>
-        <span id="name">پشتیبانی بخش فروش<br> آیسان آقازاده</span>
+        <span id="name">پشتیبانی بخش فروش<br> </span>
     </div>
     <div id="msg_box">
 
     </div>
     <div id="msg_txt">
         <div id="msg1">
-            <button id="send_button" type="submit">
+            <button id="send_button" type="submit" onclick="send()">
                 <img id="send_image" src="../icons/send.png">
             </button>
             <span>

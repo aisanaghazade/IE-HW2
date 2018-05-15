@@ -324,6 +324,7 @@
     background-color: #E0E0E0;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    overflow-y: auto;
 }
 
 #msg_txt{
@@ -342,12 +343,21 @@
     right: -560px;
     bottom: 45%;
     border-radius: 100%;
+
+}
+#supporterimg{
+    position: fixed;
+    right: 18px;
+    bottom: 46%;
+    width: 50px;
+    height: 50px;
 }
 
-#s_img{
-    width: 10%;
-    height: 10%;
+#s1_img{
+    height: 95%;
+    width: 95%;
     border-radius: 100%;
+
 }
 
 #name{
@@ -402,4 +412,47 @@
 
 #m_text:focus{
     outline: none;
+}
+
+.customer_msg{
+    width: 100%;
+    direction: rtl;
+    margin-top: 10px;
+}
+
+.customer_img{
+    margin-right: 5px;
+    margin-top: 5px;
+    float: right;
+}
+
+.s_img{
+    width: 20%;
+    height: 20%;
+    border-radius: 100%;
+}
+
+.msg_place{
+    margin-right: 10%;
+    direction: rtl;
+    background-color: white;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin-top: -5px;
+}
+
+.service_msg{
+    width: 100%;
+    direction: ltr;
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 20px;
+}
+
+.service_img{
+    margin-left: 5px;
+    margin-top: 5px;
+    float: left;
 }
