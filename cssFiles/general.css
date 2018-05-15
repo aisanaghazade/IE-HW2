@@ -432,6 +432,12 @@
     border-radius: 100%;
 }
 
+.s1_img{
+    width: 80%;
+    height: 80%;
+    border-radius: 100%;
+}
+
 .msg_place{
     margin-right: 10%;
     direction: rtl;
@@ -441,6 +447,7 @@
     border-radius: 20px;
     padding: 10px 10px;
     margin-top: -5px;
+    margin-left: 15px;
 }
 
 .service_msg{
@@ -448,11 +455,11 @@
     direction: ltr;
     margin-top: 10px;
     margin-left: 5px;
-    height: 20px;
 }
 
 .service_img{
     margin-left: 5px;
     margin-top: 5px;
+    width: 100%;
     float: left;
 }

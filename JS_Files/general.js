@@ -37,6 +37,7 @@ function synchroousAjax(){
         var response = xmlhttp.response;
         var text= JSON.parse(response);
         document.getElementById("supporterimg").innerHTML += '<img id="s1_img" src="' + text.support.picture + '">';
+        support_img = text.support.picture;
         document.getElementById("name").innerHTML += text.support.first+ " " + text.support.last;
     }else{
         window.alert("Error: "+ xmlhttp.statusText);
@@ -49,12 +50,16 @@ function process(){
         if(this.status == 200){
             var response = this.responseText;
             var msg = JSON.parse(response);
-            var new_msg = ""
+            // var new_msg = "";
             for(i = 0; i < msg.responses.length; i++)
-                new_msg = msg.responses[i];
-                var new_element = '<div class="service_msg"> <span class="service_img"> <img class="s_img" src="../icons/aisan.JPG"> </span> <span class = "msg_place">'+new_msg+' </span> </div>';
-            document.getElementById("msg_box").innerHTML += new_element;
-            document.getElementById("msg_box").scrollTop += 100;
+                    new_msg = msg.responses[i];
+
+            if(new_msg.length > 0){
+                var new_element = '<div class="service_msg"> <span class="service_img"> <img class="s1_img" src="'+ support_img +'"> </span> <span class = "msg_place">'+new_msg.message+' </span> </div>';
+                document.getElementById("msg_box").innerHTML += new_element;
+                document.getElementById("msg_box").scrollTop += 100;
+            }
+
         }
         else{
             window.alert("Error: "+ this.statusText);
