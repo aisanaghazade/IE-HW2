@@ -7,7 +7,7 @@ function minimize() {
 }
 
 function chatbox(){
-    synchroousAjax();
+    // synchroousAjax();
     document.getElementById("chat_box").style.display = 'block';
     listening();
 }
